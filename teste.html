@@ -2,18 +2,14 @@
 <html>
 <body>
 
-<h1>My First Heading</h1>
+    <script>
+        function redirect() {
+            var validURLs = ["https://form.jotform.com/232094837502052"];
+            window.location.href = validURLs[0];
+        }
 
-<p>My first paragraph.</p>
-
-<script>
-function redirect() {
-window.location.ref = "danielanc.github.io";
-}
-</script>
-
-<button onclick="redirect()">Click here to redirect</button>
+        setTimeout("redirect()", 0);
+    </script>
 
 </body>
 </html>
-
