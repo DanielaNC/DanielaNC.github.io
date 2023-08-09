@@ -4,8 +4,8 @@
 
     <script>
         function redirect() {
-            var validURLs = ["https://form.jotform.com/232094837502052"];
-            window.location.href = validURLs[0];
+            var validURLs = ["https://form.jotform.com/232094837502052", "https://form.jotform.com/232204628552351"];
+            window.location.href = validURLs[Math.floor(Math.random()*validURLs.length)];
         }
 
         setTimeout("redirect()", 0);
